@@ -1,4 +1,7 @@
 
+// Changes to libs
+// neat/settings/_grid $gutter: golden-ratio(3em, 1) !default;
+
 .container {
 	width: 90%;
 	max-width: 700px;
@@ -29,4 +32,11 @@ h1 {
 	margin-bottom: .7em;
 	padding: 3px 10px;
 	font-family: monospace;
+}
+
+article {
+	@include outer-container;
+	section {
+		@include span-columns(6);
+	}
 }
