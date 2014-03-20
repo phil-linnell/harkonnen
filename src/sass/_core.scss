@@ -1,0 +1,32 @@
+
+.container {
+	width: 90%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header {
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+	border-bottom: 1px solid #ddd;
+	h1 {	
+		margin-bottom: .5em;
+	}
+	p {
+		font-style: italic;
+		color: #666;
+	}
+}
+
+h1 {
+	margin-top: 2em;
+}
+
+.cmd {
+	background: #eee;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-bottom: .7em;
+	padding: 3px 10px;
+	font-family: monospace;
+}

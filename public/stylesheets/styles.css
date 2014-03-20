@@ -1,0 +1,97 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+	v2.0 | 20110126
+	License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  font: 67.5% normal arial, sans-serif; }
+  body .container {
+    font-size: 1.2em; }
+  body h1 {
+    font-size: 2em;
+    font-weight: 100;
+    margin-bottom: 2em; }
+  body h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1.5em; }
+  body ul, body p {
+    margin-bottom: 2em; }
+    body ul:last-child, body p:last-child {
+      margin-bottom: 0; }
+  body ul {
+    margin-left: 1em;
+    list-style-position: inside;
+    list-style-type: disc; }
+    body ul li {
+      margin-bottom: 1em; }
+    body ul ul {
+      margin-bottom: 1em;
+      list-style-type: circle; }
+      body ul ul li {
+        margin-bottom: .5em; }
+  body section {
+    margin-bottom: 2.5em; }
+
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto; }
+
+header {
+  padding-bottom: 1em;
+  margin-bottom: 2em;
+  border-bottom: 1px solid #ddd; }
+  header h1 {
+    margin-bottom: .5em; }
+  header p {
+    font-style: italic;
+    color: #666; }
+
+h1 {
+  margin-top: 2em; }
+
+.cmd {
+  background: #eee;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: .7em;
+  padding: 3px 10px;
+  font-family: monospace; }
